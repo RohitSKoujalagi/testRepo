@@ -1,0 +1,16 @@
+{
+  "name": "vulnerability-scanner-proxy",
+  "version": "1.0.0",
+  "description": "A multi-format proxy server for the Sonatype API",
+  "main": "server.js",
+  "type": "module",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "@yarnpkg/lockfile": "^1.1.0",
+    "@yarnpkg/parsers": "^3.0.0",
+    "cors": "^2.8.5",
+    "express": "^4.19.2"
+  }
+}
